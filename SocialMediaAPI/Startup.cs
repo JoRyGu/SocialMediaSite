@@ -27,7 +27,13 @@ namespace SocialMediaAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(c =>
+            {
+                c.AddPolicy("Allow Origin", options => options.AllowAnyOrigin());
+            });
+
             services.AddControllers();
+
             services.AddDbContext<DataContext>(opts => {
                 opts.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
@@ -46,6 +52,8 @@ namespace SocialMediaAPI
             }
 
             //app.UseHttpsRedirection();
+
+            app.UseCors(options => options.AllowAnyOrigin());
 
             app.UseRouting();
 

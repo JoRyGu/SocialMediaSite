@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialMediaAPI", "SocialMediaAPI\SocialMediaAPI.csproj", "{2CB86FB1-601D-4C13-BDB1-603797A3C1BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4C7BD4D5-52CD-4805-9486-345CC746BEBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{4C7BD4D5-52CD-4805-9486-345CC746BEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C7AF5380-8DC9-4931-8CD1-AE100481D01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{C7AF5380-8DC9-4931-8CD1-AE100481D01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{C1A84D45-0BD2-4B51-B89C-448058F5A205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{C1A84D45-0BD2-4B51-B89C-448058F5A205}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SocialMediaClient", "SocialMediaClient\SocialMediaClient.njsproj", "{1C01FA86-C6F9-4766-B2AA-9473DDA50C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C1A84D45-0BD2-4B51-B89C-448058F5A205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A84D45-0BD2-4B51-B89C-448058F5A205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A84D45-0BD2-4B51-B89C-448058F5A205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C01FA86-C6F9-4766-B2AA-9473DDA50C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C01FA86-C6F9-4766-B2AA-9473DDA50C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C01FA86-C6F9-4766-B2AA-9473DDA50C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C01FA86-C6F9-4766-B2AA-9473DDA50C48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
